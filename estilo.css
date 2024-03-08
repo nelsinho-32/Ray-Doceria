@@ -1,0 +1,91 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-variant: small-caps;
+    background: linear-gradient(to right, rgb(236, 144, 236), rgb(232, 100, 232));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-variant: small-caps;
+    background: linear-gradient(to right, rgb(236, 144, 236), rgb(232, 100, 232));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p {
+    font-size: 26px;
+    text-indent: 25px;
+}
+body {
+    background-image: url(./fundo-abstrato-gradiente-vermelho-e-branco_53876-62625.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.content {
+    height: 550px;
+    width: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: translate(60%,0%);
+}
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    transform: translate(65%,0%);
+    display: flex;
+}
+.bar {
+   width: 50px;
+   height: 10px;
+   border: 2px solid #cfbfbf;
+   margin: 4px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+.bar:hover {
+    background-color: #cfbfbf;
+}
+input {
+    display: none;
+}
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
+li {
+    font-size: 20px;
+}
+h3 {
+    font-size: 25px;
+}
+p2 {
+    font-size: 19px;
+}
